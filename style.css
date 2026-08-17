@@ -1197,16 +1197,7 @@ a {
     }
 
 }
-
-/* =========================================
-   MOBILE RESPONSIVE
-========================================= */
-
 @media (max-width: 767.98px) {
-
-    /* =========================
-       HEADER
-    ========================= */
 
     .logo {
         letter-spacing: -2px;
@@ -1232,10 +1223,6 @@ a {
     }
 
 
-    /* =========================
-       NAVBAR
-    ========================= */
-
     .main-navbar {
         padding: 8px 0;
     }
@@ -1256,11 +1243,6 @@ a {
         border-left: 3px solid var(--orange);
     }
 
-
-    /* =========================
-       SEARCH BOX
-    ========================= */
-
     .search-box {
         width: 100%;
         margin-top: 10px;
@@ -1274,11 +1256,6 @@ a {
     .search-box i {
         font-size: 17px;
     }
-
-
-    /* =========================
-       HERO
-    ========================= */
 
     .hero-section {
         min-height: 550px;
@@ -1308,12 +1285,6 @@ a {
         padding: 10px 18px;
         font-size: 15px;
     }
-
-
-    /* =========================
-       SERVICES
-    ========================= */
-
     .service-box {
         min-height: auto;
 
@@ -1335,11 +1306,6 @@ a {
         line-height: 25px;
     }
 
-
-    /* =========================
-       SECTION TITLE
-    ========================= */
-
     .section-title {
         top: 20px;
 
@@ -1357,15 +1323,8 @@ a {
 
 }
 
-
-/* =========================================
-   SMALL MOBILE
-   480px and below
-========================================= */
-
 @media (max-width: 480px) {
 
-    /* Header */
 
     .logo h1 {
         font-size: 32px;
@@ -1384,17 +1343,10 @@ a {
         padding: 7px 11px;
     }
 
-
-    /* Navbar */
-
     .main-navbar .nav-link {
         font-size: 14px;
         padding: 9px 12px;
     }
-
-
-    /* Hero */
-
     .hero-section {
         min-height: 500px;
 
@@ -1409,9 +1361,6 @@ a {
         font-size: 15px;
         line-height: 1.6;
     }
-
-
-    /* Services */
 
     .service-box {
         padding: 30px 20px;
@@ -1429,9 +1378,6 @@ a {
         font-size: 14px;
         line-height: 24px;
     }
-
-
-    /* Section title */
 
     .section-title {
         font-size: 26px;
@@ -1623,11 +1569,6 @@ a {
             font-size: 17px;
         }
 
-
-        /* =========================
-       EVENTS
-    ========================= */
-
         .event-img {
             height: 210px;
         }
@@ -1686,11 +1627,6 @@ a {
             height: 60px;
             font-size: 17px;
         }
-
-
-        /* =========================
-       BLOG
-    ========================= */
 
         .blog-image {
             height: 240px;
@@ -1890,16 +1826,9 @@ a {
     .blog-meta {
         font-size: 13px;
     }
-    /* =========================================
-   TABLET RESPONSIVE
-   768px - 991px
-========================================= */
 
 @media (max-width: 991.98px) {
 
-    /* =========================
-       TESTIMONIAL
-    ========================= */
 
     .testimonial {
         padding: 25px;
@@ -1911,10 +1840,6 @@ a {
     }
 
 
-    /* =========================
-       GALLERY
-    ========================= */
-
     .gallery-img {
         height: 260px;
         object-fit: cover;
@@ -1924,11 +1849,6 @@ a {
         font-size: 15px;
         padding: 18px;
     }
-
-
-    /* =========================
-       FOOTER
-    ========================= */
 
     .main-footer {
         padding-top: 70px;
@@ -1947,9 +1867,6 @@ a {
         margin-bottom: 25px;
     }
 
-
-    /* Recent Blog */
-
     .recent-blog {
         gap: 18px;
         margin-bottom: 30px;
@@ -1965,23 +1882,14 @@ a {
         line-height: 21px;
     }
 
-
-    /* Quick Links */
-
     .quick-links li {
         margin-bottom: 12px;
     }
-
-
-    /* Newsletter */
 
     .subscribe-form input,
     .subscribe-form button {
         height: 55px;
     }
-
-
-    /* Social icons */
 
     .social-icons-footer {
         gap: 15px;
@@ -2000,9 +1908,6 @@ a {
         margin-top: 35px !important;
     }
 
-
-    /* Footer bottom */
-
     .footer-bottom {
         margin-top: 20px;
         padding-top: 25px;
@@ -2014,17 +1919,7 @@ a {
     }
 }
 
-
-/* =========================================
-   MOBILE
-   768px and below
-========================================= */
-
 @media (max-width: 767.98px) {
-
-    /* =========================
-       TESTIMONIAL
-    ========================= */
 
     .testimonial {
         padding: 20px;
@@ -2040,11 +1935,6 @@ a {
         height: 50px;
     }
 
-
-    /* =========================
-       GALLERY
-    ========================= */
-
     .gallery-img {
         width: 100%;
         height: 200px;
@@ -2057,10 +1947,6 @@ a {
         padding: 16px;
     }
 
-
-    /* =========================
-       FOOTER
-    ========================= */
 
     .main-footer {
         padding: 55px 20px 35px;
@@ -2085,11 +1971,6 @@ a {
         margin-bottom: 25px;
     }
 
-
-    /* =========================
-       CONTACT
-    ========================= */
-
     .contact-item {
         gap: 18px;
         margin-bottom: 20px;
@@ -2104,11 +1985,6 @@ a {
         font-size: 14px;
         line-height: 21px;
     }
-
-
-    /* =========================
-       RECENT BLOG
-    ========================= */
 
     .recent-blog {
         gap: 15px;
@@ -2134,11 +2010,6 @@ a {
     .blog-meta i {
         font-size: 10px;
     }
-
-
-    /* =========================
-       QUICK LINKS
-    ========================= */
 
     .quick-links li {
         margin-bottom: 10px;
@@ -2171,11 +2042,6 @@ a {
         font-size: 16px;
     }
 
-
-    /* =========================
-       CONNECT / SOCIAL
-    ========================= */
-
     .connect-title {
         margin-top: 35px !important;
     }
@@ -2193,11 +2059,6 @@ a {
         font-size: 15px;
     }
 
-
-    /* =========================
-       FOOTER BOTTOM
-    ========================= */
-
     .footer-bottom {
         padding-top: 22px;
         margin-top: 10px;
@@ -2209,8 +2070,6 @@ a {
     }
 
 }
-
-
     .testimonial {
         padding: 18px;
     }
@@ -2225,11 +2084,6 @@ a {
         height: 45px;
     }
 
-
-    /* =========================
-       GALLERY
-    ========================= */
-
     .gallery-img {
         height: 160px;
     }
@@ -2238,11 +2092,6 @@ a {
         font-size: 12px;
         padding: 13px;
     }
-
-
-    /* =========================
-       FOOTER
-    ========================= */
 
     .main-footer {
         padding: 45px 15px 30px;
@@ -2255,9 +2104,6 @@ a {
     .footer-column h4 {
         font-size: 17px;
     }
-
-
-    /* Recent Blog */
 
     .recent-blog {
         gap: 12px;
@@ -2277,16 +2123,10 @@ a {
         font-size: 10px;
     }
 
-
-    /* Newsletter */
-
     .subscribe-form input,
     .subscribe-form button {
         height: 52px;
     }
-
-
-    /* Social */
 
     .social-icons-footer {
         gap: 10px;
@@ -2300,9 +2140,6 @@ a {
     .social-icons-footer a i {
         font-size: 14px;
     }
-
-
-    /* Footer bottom */
 
     .footer-bottom p {
         font-size: 12px;
